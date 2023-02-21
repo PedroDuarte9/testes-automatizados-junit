@@ -16,6 +16,11 @@ class ReajusteServiceTest {
 	private ReajusteService service;
 	private Funcionario funcionario;
 	
+	/*Outras Anotações
+	 * @BeforeAll
+	 * @AfterEach
+	 * @AfterAll*/
+	
 	@BeforeEach
 	public void inicializar() {
 		this.service = new ReajusteService();
